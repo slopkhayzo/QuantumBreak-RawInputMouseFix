@@ -1,0 +1,54 @@
+# Research workspace: notes, disassembly, unpacked binaries, third-party tools (never published)
+research/
+
+# Build output and release archives
+build/
+dist/
+*.sha256
+out/
+bin/
+obj/
+x64/
+Debug/
+Release/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Visual Studio / IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.aps
+*.ipch
+
+# Compiled artifacts
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+*.iobj
+*.ipdb
+*.asi
+
+# Runtime logs / local configs produced by the mod
+*.log
+*.dmp
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
